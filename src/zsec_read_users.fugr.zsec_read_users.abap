@@ -1,0 +1,42 @@
+FUNCTION ZSEC_READ_USERS.
+*"----------------------------------------------------------------------
+*"*"Local Interface:
+*"  IMPORTING
+*"     VALUE(IM_BEGDA) TYPE  AGR_FDATE OPTIONAL
+*"     VALUE(IM_ENDDA) TYPE  AGR_TDATE OPTIONAL
+*"  TABLES
+*"      UNAMES STRUCTURE  ZUNAME_RANGE OPTIONAL
+*"      AGR_NAMES STRUCTURE  ZAGR_NAME_RANGE OPTIONAL
+*"      AGR_COL STRUCTURE  ZAGR_COL_RANGE OPTIONAL
+*"      EX_AGR_USERS STRUCTURE  AGR_USERS OPTIONAL
+*"  EXCEPTIONS
+*"      NOTHING_FOUND
+*"----------------------------------------------------------------------
+
+  DATA: LV_BEGDA TYPE DATUM,
+        LV_ENDDA TYPE DATUM.
+
+  IF IM_BEGDA IS INITIAL.
+    LV_BEGDA = SY-DATUM.
+  ELSE.
+    LV_BEGDA = IM_BEGDA.
+  ENDIF.
+
+  IF IM_ENDDA IS INITIAL.
+    LV_ENDDA = SY-DATUM.
+  ELSE.
+    LV_ENDDA = IM_ENDDA.
+  ENDIF.
+
+  SELECT * INTO TABLE EX_AGR_USERS
+                 FROM AGR_USERS
+                 WHERE AGR_NAME IN AGR_NAMES
+                 AND   UNAME    IN UNAMES
+                 AND   FROM_DAT LE IM_ENDDA
+                 AND   TO_DAT   GE LV_BEGDA
+                 AND   COL_FLAG IN AGR_COL.
+  IF SY-SUBRC NE 0.
+    RAISE NOTHING_FOUND.
+  ENDIF.
+
+ENDFUNCTION.

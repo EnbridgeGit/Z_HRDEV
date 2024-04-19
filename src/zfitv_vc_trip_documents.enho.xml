@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>WDYENH</TOOL>
+   <COMPONENT_DATA>
+    <COMPONENT_NAME>FITV_VC_TRIP_DOCUMENTS</COMPONENT_NAME>
+    <CONTROLLER_DATA>
+     <ENHWDYC>
+      <CONTROLLER_NAME>COMPONENTCONTROLLER</CONTROLLER_NAME>
+      <CTLR_COMPO_ENHANCEMENTS>
+       <WDY_ENH_NEW_CODE>
+        <COMPONENT_NAME>FITV_VC_TRIP_DOCUMENTS</COMPONENT_NAME>
+        <CONTROLLER_NAME>COMPONENTCONTROLLER</CONTROLLER_NAME>
+        <CTLR_COMPO_NAME>SET_FIELD_CONTROL</CTLR_COMPO_NAME>
+        <NEW_CTLR_COMPO_NAME>_PST_5196WTFXJ2M778MX4WAG1EHBU</NEW_CTLR_COMPO_NAME>
+        <NEW_CTLR_COMPO_TYPE>02</NEW_CTLR_COMPO_TYPE>
+        <CODE_BODY>method _PST_5196WTFXJ2M778MX4WAG1EHBU . &quot;Exit of SET_FIELD_CONTROL (in ZFITV_VC_TRIP_DOCUMENTS )
+
+  DATA: lo_el_field_control TYPE REF TO if_wd_context_element,
+        lv_active           TYPE char4.
+
+  lo_el_field_control = wd_context-&gt;get_child_node( name = wd_this-&gt;wdctx_field_control )-&gt;get_element( ).
+
+  lv_active+3(1) = abap_true. &quot;Busimess document
+
+  lo_el_field_control-&gt;set_attribute(
+  EXPORTING
+    value = lv_active
+    name  = &apos;VISIBILITY&apos; ).
+
+
+endmethod.
+</CODE_BODY>
+       </WDY_ENH_NEW_CODE>
+      </CTLR_COMPO_ENHANCEMENTS>
+     </ENHWDYC>
+     <ENHWDYC>
+      <CONTROLLER_NAME>V_ATTA</CONTROLLER_NAME>
+      <CTLR_COMPO_ENHANCEMENTS>
+       <WDY_ENH_NEW_CODE>
+        <COMPONENT_NAME>FITV_VC_TRIP_DOCUMENTS</COMPONENT_NAME>
+        <CONTROLLER_NAME>V_ATTA</CONTROLLER_NAME>
+        <CTLR_COMPO_NAME>WDDOINIT</CTLR_COMPO_NAME>
+        <NEW_CTLR_COMPO_NAME>_PST_51CTI9SCFOKBDEEJZVUXT2JI2</NEW_CTLR_COMPO_NAME>
+        <NEW_CTLR_COMPO_TYPE>02</NEW_CTLR_COMPO_TYPE>
+        <CODE_BODY>method _PST_51CTI9SCFOKBDEEJZVUXT2JI2 . &quot;Exit of WDDOINIT (in ZFITV_VC_TRIP_DOCUMENTS )
+
+  DATA: lo_nd_field_control TYPE REF TO if_wd_context_node,
+        lo_el_field_control TYPE REF TO if_wd_context_element.
+
+  lo_nd_field_control = wd_context-&gt;get_child_node( name = wd_this-&gt;wdctx_field_control ).
+
+* get element via lead selection
+  lo_el_field_control = lo_nd_field_control-&gt;get_element( ).
+
+  lo_el_field_control-&gt;set_attribute_property(
+      EXPORTING
+        attribute_name = &apos;NOTE&apos;
+        property       =  1
+        value          =  abap_false ).
+
+  lo_el_field_control-&gt;set_attribute_property(
+    EXPORTING
+      attribute_name = &apos;URL&apos;
+      property       =  1
+      value          =  abap_false ).
+
+  lo_el_field_control-&gt;set_attribute_property(
+   EXPORTING
+     attribute_name = &apos;ATTA&apos;
+     property       =  1
+     value          =  abap_false ).
+
+endmethod.
+</CODE_BODY>
+       </WDY_ENH_NEW_CODE>
+      </CTLR_COMPO_ENHANCEMENTS>
+     </ENHWDYC>
+    </CONTROLLER_DATA>
+   </COMPONENT_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>550B85B507910990E10080000A14D03A</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>550B85B507910990E10080000A14D03A</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>021</LENGTH>
+       <TEXT>Enhacements</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZFITV_VC_TRIP_DOCUMENTS</OBJ_NAME>
+     <CONCEPT>550B85B507910990E10080000A14D03A</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>WDYENH</TOOL>
+   <COMPONENT_DATA>
+    <COMPONENT_NAME>FITE_VC_REVIEW</COMPONENT_NAME>
+    <CONTROLLER_DATA>
+     <ENHWDYC>
+      <CONTROLLER_NAME>REVIEW_VIEW</CONTROLLER_NAME>
+      <CTLR_COMPO_ENHANCEMENTS>
+       <WDY_ENH_NEW_CODE>
+        <COMPONENT_NAME>FITE_VC_REVIEW</COMPONENT_NAME>
+        <CONTROLLER_NAME>REVIEW_VIEW</CONTROLLER_NAME>
+        <CTLR_COMPO_NAME>WDDOMODIFYVIEW</CTLR_COMPO_NAME>
+        <NEW_CTLR_COMPO_NAME>_PST_5196VB177YUG9KVFSXPGTHKQI</NEW_CTLR_COMPO_NAME>
+        <NEW_CTLR_COMPO_TYPE>02</NEW_CTLR_COMPO_TYPE>
+        <CODE_BODY>method _PST_5196VB177YUG9KVFSXPGTHKQI . &quot;Exit of WDDOMODIFYVIEW (in ZFITE_VC_REVIEW )
+
+DATA: lo_radiobutton TYPE REF TO cl_wd_radiobutton.
+
+  lo_radiobutton ?= cl_fitv_wd_util=&gt;ui_assert_element( io_view = view iv_id = &apos;SAVE&apos; ).
+  lo_radiobutton-&gt;set_visible( value = &apos;01&apos;).
+
+  cl_fitv_wd_util=&gt;ui_set_visible(
+               io_view         = view
+               iv_id           = &apos;CUSTOMIZING_TEXT_SAVE&apos;
+               iv_visible      = abap_false ).
+
+endmethod.
+</CODE_BODY>
+       </WDY_ENH_NEW_CODE>
+      </CTLR_COMPO_ENHANCEMENTS>
+     </ENHWDYC>
+    </CONTROLLER_DATA>
+   </COMPONENT_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>55179FED69570A00E10080000A14D03A</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>55179FED69570A00E10080000A14D03A</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>033</LENGTH>
+       <TEXT>Hide Save Draft button</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZFITE_VC_REVIEW</OBJ_NAME>
+     <CONCEPT>55179FED69570A00E10080000A14D03A</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

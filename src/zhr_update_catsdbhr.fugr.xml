@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>      Update CATSDB HR</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHR_UPDATE_CATSDBHRTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHR_UPDATE_CATSDBHR</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHR_UPDATE_CATSDBHR</FUNCNAME>
+     <SHORT_TEXT>Update CATSDB HR</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

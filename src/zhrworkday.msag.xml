@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZHRWORKDAY</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class for SAP-WORKDAY Integration</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Record start date is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Record start date is blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Record end date is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Record end date is blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Changed on start date is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Changed on start date is blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Changed on end date is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Changed on end date is blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Retro indicator is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Retro indicator is blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Data extracted successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>No data found for selection criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Record start date is greater than record end date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Changed on start date is greater than changed on end date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Changed on start time is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Changed on end time is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHRWORKDAY</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Changed on start time is greater than changed on end time</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

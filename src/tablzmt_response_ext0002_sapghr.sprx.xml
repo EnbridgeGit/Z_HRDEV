@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZMT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME_M>
+     <HASH_ID>61AD8F01A0EA582DB1A85F86D7D1348A46F1D73F</HASH_ID>
+     <ID>&lt;message&gt; MT_Response_EXT0002_SAPGHR http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>MT_Response_EXT0002_SAPGHR</IFR_NAME>
+     <IFR_NSPCE>http://enbridge.com/Workday/Outbound/ext0002</IFR_NSPCE>
+     <IFR_GNSPCE>http://enbridge.com/Workday/Outbound/ext0002</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <X-ML_NSPCE>http://enbridge.com/Workday/Outbound/ext0002</X-ML_NSPCE>
+     <X-ML_NAME>MT_Response_EXT0002_SAPGHR</X-ML_NAME>
+     <VERSION_ID>8a13181472f811e8cf9d000000fcc6be</VERSION_ID>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZDT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME_R>
+     <ID>&lt;part&gt; MT_Response_EXT0002_SAPGHR &lt;message&gt; MT_Response_EXT0002_SAPGHR http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_TYPE>part</IFR_TYPE>
+     <IFR_NAME>MT_Response_EXT0002_SAPGHR</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MT_RESPONSE_EXT0002_SAPGHR</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZMT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZMT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME2>
+     <ID>&lt;message&gt; MT_Response_EXT0002_SAPGHR http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>MT_Response_EXT0002_SAPGHR</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZMT_RESPONSE_EXT0002_SAPGHR</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

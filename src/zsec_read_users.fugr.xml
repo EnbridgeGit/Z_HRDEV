@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Read table AGR_USERS</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSEC_READ_USERSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSEC_READ_USERS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSEC_READ_USERS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Read table AGR_USERS</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_BEGDA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>AGR_FDATE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_ENDDA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>AGR_TDATE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>UNAMES</PARAMETER>
+       <DBSTRUCT>ZUNAME_RANGE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>AGR_NAMES</PARAMETER>
+       <DBSTRUCT>ZAGR_NAME_RANGE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>AGR_COL</PARAMETER>
+       <DBSTRUCT>ZAGR_COL_RANGE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>EX_AGR_USERS</PARAMETER>
+       <DBSTRUCT>AGR_USERS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOTHING_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_BEGDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Start Date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_ENDDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>End Date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UNAMES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User Name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>AGR_NAMES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Role Name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>AGR_COL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User Name Range</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_AGR_USERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table type for AGR_USERS</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOTHING_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Nothing found</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

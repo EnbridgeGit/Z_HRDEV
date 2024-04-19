@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME>
+     <OBJECT_M>INTF</OBJECT_M>
+     <OBJ_NAME_M>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME_M>
+     <HASH_ID>6A8F425742436AFEE8F515461BB0FC167040F1A8</HASH_ID>
+     <ID>&lt;portType&gt; SII_WD_EXT0002_CATS_Data_Sync_1 http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>portType</IFR_TYPE>
+     <IFR_NAME>SII_WD_EXT0002_CATS_Data_Sync_1</IFR_NAME>
+     <IFR_NSPCE>http://enbridge.com/Workday/Outbound/ext0002</IFR_NSPCE>
+     <IFR_GNSPCE>http://enbridge.com/Workday/Outbound/ext0002</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <CATEGORY>ifmmessif</CATEGORY>
+     <DIRECTION>I</DIRECTION>
+     <X-ML_NSPCE>http://enbridge.com/Workday/Outbound/ext0002</X-ML_NSPCE>
+     <X-ML_NAME>SII_WD_EXT0002_CATS_Data_Sync_1</X-ML_NAME>
+     <FURTHER_DATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;SOAP_APPL&gt;urn:sap-com:soap:application:esr:server:710&lt;/SOAP_APPL&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHER_DATA>
+     <VERSION_ID>c5236706747511e8ccc6000000fcc6be</VERSION_ID>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME>
+     <OBJECT1>CLAS</OBJECT1>
+     <OBJ_NAME1>ZCL_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME1>
+     <OBJECT2>CLAS</OBJECT2>
+     <OBJ_NAME2>ZCL_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME2>
+     <ID>&lt;CLIM&gt; SII_WD_EXT0002_CATS_Data_Sync_1 http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_TYPE>CLIM</IFR_TYPE>
+     <IFR_NAME>SII_WD_EXT0002_CATS_Data_Sync_1</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <R3_TYPE>CLAS</R3_TYPE>
+     <R3_NAME>ZCL_SII_WD_EXT0002_CATS_DATA_S</R3_NAME>
+     <R3_TEXT>Proxy Class (generated)</R3_TEXT>
+    </item>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME>
+     <OBJECT1>INTF</OBJECT1>
+     <OBJ_NAME1>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME1>
+     <OBJECT2>INTF</OBJECT2>
+     <OBJ_NAME2>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME2>
+     <ID>&lt;portType&gt; SII_WD_EXT0002_CATS_Data_Sync_1 http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_TYPE>portType</IFR_TYPE>
+     <IFR_NAME>SII_WD_EXT0002_CATS_Data_Sync_1</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>INTF</R3_TYPE>
+     <R3_NAME>ZII_SII_WD_EXT0002_CATS_DATA_S</R3_NAME>
+     <R3_TEXT>Proxy Interface (generated)</R3_TEXT>
+     <CATEGORY>ifmmessif</CATEGORY>
+     <DIRECTION>I</DIRECTION>
+    </item>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>SII_WD_EXT0002_CATS_DATA_SYNC</OBJ_NAME1>
+     <OBJECT2>METH</OBJECT2>
+     <OBJ_NAME2>SII_WD_EXT0002_CATS_DATA_SYNC</OBJ_NAME2>
+     <ID>&lt;operation&gt; SII_WD_EXT0002_CATS_Data_Sync &lt;portType&gt; SII_WD_EXT0002_CATS_Data_Sync_1 http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_TYPE>operation</IFR_TYPE>
+     <IFR_NAME>SII_WD_EXT0002_CATS_Data_Sync</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>METH</R3_TYPE>
+     <R3_NAME>SII_WD_EXT0002_CATS_DATA_SYNC</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+     <DIRECTION>I</DIRECTION>
+     <SYNCHRON>X</SYNCHRON>
+    </item>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>SII_WD_EXT0002_CATS_DATA_SYNC</OBJ_NAME1>
+     <OBJECT2>PAEX</OBJECT2>
+     <OBJ_NAME2>OUTPUT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZMT_RESPONSE_EXT0002_SAPGHR</OBJ_NAME_R>
+     <ID>&lt;output&gt; output &lt;operation&gt; SII_WD_EXT0002_CATS_Data_Sync &lt;portType&gt; SII_WD_EXT0002_CATS_Data_Sync_1 http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_TYPE>PartOutput</IFR_TYPE>
+     <IFR_NAME>output</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>PAEX</R3_TYPE>
+     <R3_NAME>OUTPUT</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZII_SII_WD_EXT0002_CATS_DATA_S</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>SII_WD_EXT0002_CATS_DATA_SYNC</OBJ_NAME1>
+     <OBJECT2>PAIM</OBJECT2>
+     <OBJ_NAME2>INPUT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZMT_REQUEST_EXT0002_SAPGHR</OBJ_NAME_R>
+     <ID>&lt;input&gt; input &lt;operation&gt; SII_WD_EXT0002_CATS_Data_Sync &lt;portType&gt; SII_WD_EXT0002_CATS_Data_Sync_1 http://enbridge.com/Workday/Outbound/ext0002 http://enbridge.com/Workday/Outbound/ext0002</ID>
+     <IFR_TYPE>PartInput</IFR_TYPE>
+     <IFR_NAME>input</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>PAIM</R3_TYPE>
+     <R3_NAME>INPUT</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
